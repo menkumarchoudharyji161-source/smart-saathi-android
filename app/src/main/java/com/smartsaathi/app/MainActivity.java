@@ -351,6 +351,6 @@ public class MainActivity extends Activity {
         }
         if (webView != null) { webView.removeJavascriptInterface("SmartSaathiAndroid"); webView.destroy(); webView = null; }
         if (textToSpeech != null) { try { textToSpeech.stop(); textToSpeech.shutdown(); } catch (Exception ignored) {} textToSpeech = null; }
-        super.onDestroy();
+                super.onDestroy();
     }
-              }
+}
